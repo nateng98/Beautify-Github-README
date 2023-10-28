@@ -1,2 +1,2 @@
-# Beautify-Github-Profile
+# Easy-Github-Profile
 Being creative and making your Github profile more appealing!
