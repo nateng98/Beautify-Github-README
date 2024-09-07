@@ -1,12 +1,12 @@
-import Container from "./ui/Container"
+import HomeBanner from "./ui/HomeBanner"
+import Highlight from "./ui/Highlight"
 
 function App() {
 
   return (
     <main>
-      <Container>
-        <p>E-commerce Website</p>
-      </Container>
+      <HomeBanner />
+      <Highlight />
     </main>
   )
 }
