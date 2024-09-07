@@ -23,8 +23,8 @@ const FooterNavigation = () => {
 			<div className='basis-1/2'>
 				<h3 className='text-xl font-medium text-gray-900 mb-2'>Customer Support</h3>
 				<ul>
-					{customerSupportLinks.map((csLink) => (
-						<Link to={csLink?.href}>
+					{customerSupportLinks.map((csLink, index) => (
+						<Link key={index} to={csLink?.href}>
 							<li key={csLink?.name}>{csLink?.name}</li>
 						</Link>
 					))}
@@ -34,8 +34,8 @@ const FooterNavigation = () => {
 			<div className='basis-1/2'>
 				<h3 className='text-xl font-medium text-gray-900 mb-2'>About Us</h3>
 				<ul>
-					{aboutUstLinks.map((abLink) => (
-						<Link to={abLink?.href}>
+					{aboutUstLinks.map((abLink, index) => (
+						<Link key={index} to={abLink?.href}>
 							<li key={abLink?.name}>{abLink?.name}</li>
 						</Link>
 					))}
