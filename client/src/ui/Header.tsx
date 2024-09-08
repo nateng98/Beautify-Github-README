@@ -15,7 +15,7 @@ const Header = () => {
   const categories = fetchHelper({props: 'categories'});
 
   return (
-	<div className='w-full bg-whiteText md:sticky md:top-0 z-50'>
+	<div className='w-full bg-darkText text-whiteText md:sticky md:top-0 z-50'>
     <div className='max-w-screen-xl mx-auto h-20 lg:h-24 flex items-center justify-between px-4 lg:px-0'>
       {/* logo */}
       <Link to='/'>

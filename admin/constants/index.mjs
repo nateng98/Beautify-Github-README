@@ -15,9 +15,9 @@ const cat = {
 
   export const banners = [
 	{
-		id: 2,
-		name: 'Asus Laptop',
-		image: 'https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/28/2024/01/11/ROG-2024-1895471152.jpg',
+		id: 0,
+		name: 'Shop our BEST OFFERS!',
+		image: 'https://assets.architecturaldigest.in/photos/60084fc951daf9662c149bb9/16:9/w_2560%2Cc_limit/how-to-clean-gadgets-1366x768.jpg',
 		description: 'The new tech gift you are wishing for right here.',
 	},
   ];

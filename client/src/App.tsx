@@ -1,5 +1,6 @@
-import HomeBanner from "./ui/HomeBanner"
-import Highlight from "./ui/Highlight"
+import HomeBanner from './ui/HomeBanner'
+import Highlight from './ui/Highlight'
+import FooterTop from './ui/FooterTop'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <main>
       <HomeBanner />
       <Highlight />
+      <FooterTop />
     </main>
   )
 }
