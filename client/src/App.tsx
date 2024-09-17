@@ -1,14 +1,16 @@
-import HomeBanner from './ui/HomeBanner'
-import Highlight from './ui/Highlight'
-import FooterTop from './ui/FooterTop'
+import Header from "./ui/Header"
+import Container from "./ui/Container"
+import Footer from "./ui/Footer"
 
 function App() {
 
   return (
     <main>
-      <HomeBanner />
-      <Highlight />
-      <FooterTop />
+      <Header></Header>
+      <Container>
+        <p>E-commerce Website</p>
+      </Container>
+      <Footer></Footer>
     </main>
   )
 }
