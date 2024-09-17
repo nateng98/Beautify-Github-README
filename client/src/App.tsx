@@ -1,22 +1,16 @@
-import Categories from './components/Categories'
-import DistributedBrands from './components/DistributedBrands'
-import FooterTop from './components/FooterTop'
-import Highlight from './components/Highlight'
-import HomeBanner from './components/HomeBanner'
-import News from './components/News'
-import ProductList from './components/ProductList'
+import Header from "./ui/Header"
+import Container from "./ui/Container"
+import Footer from "./ui/Footer"
 
 function App() {
 
   return (
     <main>
-      <HomeBanner />
-      <Highlight />
-      <Categories />
-      <ProductList />
-      <News />
-      <DistributedBrands />
-      <FooterTop />
+      <Header></Header>
+      <Container>
+        <p>E-commerce Website</p>
+      </Container>
+      <Footer></Footer>
     </main>
   )
 }
