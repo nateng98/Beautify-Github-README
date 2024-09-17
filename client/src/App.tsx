@@ -1,6 +1,10 @@
-import HomeBanner from './ui/HomeBanner'
-import Highlight from './ui/Highlight'
-import FooterTop from './ui/FooterTop'
+import Categories from './components/Categories'
+import DistributedBrands from './components/DistributedBrands'
+import FooterTop from './components/FooterTop'
+import Highlight from './components/Highlight'
+import HomeBanner from './components/HomeBanner'
+import News from './components/News'
+import ProductList from './components/ProductList'
 
 function App() {
 
@@ -8,6 +12,10 @@ function App() {
     <main>
       <HomeBanner />
       <Highlight />
+      <Categories />
+      <ProductList />
+      <News />
+      <DistributedBrands />
       <FooterTop />
     </main>
   )

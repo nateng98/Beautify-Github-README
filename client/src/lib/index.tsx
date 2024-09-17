@@ -28,7 +28,6 @@ export const fetchHelper = ({props} : {props: String}) => {
   useEffect(() => {
     const fetchData = async () => {
       const endpoint = `${config?.baseUrl}/${props}`;
-			console.log(endpoint);
       try {
         const data = await getData(endpoint);
         // console.log('data', data);

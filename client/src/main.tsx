@@ -1,22 +1,22 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { createBrowserRouter, Outlet, RouterProvider, ScrollRestoration } from 'react-router-dom'
 import App from './App.tsx'
+import Layout from './components/Layout.tsx'
 import './index.css'
-import Layout from './ui/Layout.tsx'
-import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
-import Product from './pages/Product.tsx'
-import Category from './pages/Category.tsx'
-import Profile from './pages/Profile.tsx'
-import Cart from './pages/Cart.tsx'
-import Orders from './pages/Orders.tsx'
-import Favorite from './pages/Favorite.tsx'
-import Success from './pages/Success.tsx'
-import NotFound from './pages/NotFound.tsx'
 import Cancel from './pages/Cancel.tsx'
+import Cart from './pages/Cart.tsx'
+import Category from './pages/Category.tsx'
+import Favorite from './pages/Favorite.tsx'
+import NotFound from './pages/NotFound.tsx'
+import Orders from './pages/Orders.tsx'
+import Product from './pages/Product.tsx'
+import Profile from './pages/Profile.tsx'
+import Success from './pages/Success.tsx'
 
 const RouterLayout = () => {
   return (
     <Layout>
+      <ScrollRestoration />
       {/*
       Outlet is a placeholder component from react-router-dom that renders whatever child route matches the current path; allowing child routes to be nested within the Layout 
       The child route component (App and components from pages) will be rendered here
