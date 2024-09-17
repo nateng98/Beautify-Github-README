@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { twMerge } from 'tailwind-merge';
 
 // Props interface defines the expected properties that Container component will receive
@@ -9,7 +9,7 @@ interface Props {
 
 const Container = ({children, className} : Props) => {
 	// twMerge: merge style without any conflicts
-	const newClassName = twMerge('max-w-screen-xl mx-auto py-10 px-4 lg:px-0', className);
+	const newClassName = twMerge('max-w-screen-xl mx-auto p-5 lg:px-0', className);
   return (
 	<div className={newClassName}>{children}</div>
   )
