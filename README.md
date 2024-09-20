@@ -37,3 +37,8 @@ For backend (admin folder)
 - `dotenv`
 - `stripe`
 
+### Account for testing
+
+- email: `testuser@gmail.com`
+
+- password: `test123456`
