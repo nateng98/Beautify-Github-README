@@ -27,6 +27,7 @@ const Pagination = () => {
 	const itemsPerPage = 5;
 	const [itemOffset, setItemOffset] = useState(0);
   const [itemStart, setItemStart] = useState(1);
+	
   const endOffset = itemOffset + itemsPerPage;
   // console.log(`Loading items from ${itemOffset} to ${endOffset}`);
   const currentItems = products.slice(itemOffset, endOffset);
@@ -40,6 +41,7 @@ const Pagination = () => {
     // );
     setItemOffset(newOffset);
     setItemStart(newStart);
+		console.log(itemStart)
   };
 
 	return (
