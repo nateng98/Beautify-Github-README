@@ -6,7 +6,7 @@ const checkConfig = (server: string): Config | {} => {
   switch (server) {
     case 'production':
       config = {
-        baseUrl: '',
+        baseUrl: 'https://electra-hub-server.vercel.app',
       };
       break;
     case 'local':
